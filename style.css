@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Varela", sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./images/d166220dd29059b04f6561e14e36d16f65123bac-1193x671.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.show-btn {
+  background-color: #a4cf17;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.1s;
+}
+.show-btn:hover {
+  opacity: 0.7;
+  background-color: #ef560f;
+}
+
+.show-btn:active {
+  opacity: 100%;
+  background-color: #ffffff;
+  color: #070707;
+}
+/* MADAL */
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 100%;
+  background-color: #070707;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 100;
+  color: #ffffff;
+}
+.modal:hover {
+  opacity: 0.9;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.h3 {
+  margin: auto;
+}
+.h3:hover {
+  color: #b8ef00;
+}
+.close-btn {
+  color: #ffffff;
+  font-size: 20px;
+}
+.close-btn:hover {
+  opacity: 0.8;
+  color: #b8ef00;
+}
+.close-btn:active {
+  opacity: 0.8;
+  color: #ef560f;
+}
+.modal-title {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 15px;
+}
+.modal-title:hover {
+  color: #a4cf17;
+}
+.p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.p:hover {
+  color: #a4cf17;
+}
+.input {
+  width: 100%;
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+.input:hover {
+  background-color: #ffffff;
+  color: #0a0a0a;
+}
+/* OVERLY */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-OY 7-DARS</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn show-btn" id="show-btn">
+        LADA 2107 HAQIDA MALUMOT
+      </button>
+      <!-- MODAL -->
+      <div class="modal hidden" id="modal">
+        <!-- MODAL HEADER -->
+        <div class="modal-header">
+          <h3 class="h3">I love ВАЗ-2107 😍</h3>
+          <button class="btn close-btn" id="close-btn">
+            <i class="fas fa-close"></i>
+          </button>
+        </div>
+        <!-- MADAL  MAIN -->
+        <div class="modal-body">
+          <h2 class="modal-title">ВАЗ-2107 XARAKTRICHISKA</h2>
+          <p class="p">
+            VAZ-2107 "Jiguli" ( LADA 2107 ) - <br />
+            bu sedan tipidagi kuzovga ega bo'lgan II guruh <br />
+            kichik sinfdagi sovet va rus orqa g'ildirakli avtomobil . <br />
+            Bu " VAZ klassikasi " ning so'nggi vakillaridan biri bo'lib , <br />
+            1982 yil 11 martdan 2012 yil 17 aprelgacha Volga avtomobil <br />
+            zavodida /AvtoVAZda ishlab chiqarilgan .
+          </p>
+          <input class="input" type="text" placeholder="IZOX UCHUN" />
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERLY -->
+    <div class="overlay hidden" id="overlay"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
